@@ -7,5 +7,5 @@ import lombok.*;
 public class PingMO implements MessageObject {
     private String id;
     private boolean success;
-    private String serviceId;
+    private String applicationId;
 }
